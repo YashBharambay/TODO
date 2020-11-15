@@ -1,0 +1,67 @@
+
+
+.form {
+    margin: 10px;
+    text-align: center;
+    line-height: normal;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px ;
+    padding-top: 0px;
+    color: #555;
+}
+
+/* .input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+    border-bottom: 5px solid #333;
+    outline: none;
+    font-size: 25px;
+    padding-bottom: 10px;
+   
+} */
+
+.Add-button {
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    
+    color: #fff;
+    font-family: 'Lato ' , sans-serif;
+    text-align: center;
+    background-color: #24cfaa ;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffff;
+                    transition: 0.5s;
+}
+
+.fields {
+    
+    padding: 20px 5px 0px 5px;
+
+}
+
+.fields input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color:#555;
+    padding: 20px 10px 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+               inset -8px -8px 8px #ffff;
+}
+

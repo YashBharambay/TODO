@@ -1,0 +1,48 @@
+
+.filterbutton {
+
+    margin: auto;
+    width: 25%;
+    margin-top: 10px;
+    white-space: normal;
+    height: 30px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    font-family: 'Lato ' , sans-serif;
+    text-align: center;
+    background-color: #24cfaa ;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffff;
+                    transition: 0.5s; 
+    
+
+}
+
+
+.visually-hidden{
+    display: none;
+}
+
+
+ /* width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    
+    color: #fff;
+    font-family: 'Lato ' , sans-serif;
+    text-align: center;
+    background-color: #24cfaa ;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffff;
+                    transition: 0.5s; */

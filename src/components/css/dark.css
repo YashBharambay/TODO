@@ -1,0 +1,182 @@
+
+
+body.dark-mode {
+  background: #091921;
+    
+    color: #CACCCD;
+}
+
+
+body.dark-mode .todoapp{
+
+    /* border: 4px solid #091921;
+    background: #091921;
+    box-shadow:  0 -15px 15px rgba(255, 255, 255, 0.05),
+                 inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+                 0 15px 15px rgba(0, 0, 0, 0.3),
+                 inset 0 15px 15px rgba(0, 0, 0, 0.3); */
+  border-radius: 40px;
+  background: #091921;
+  box-shadow: 15px 15px 20px rgba(255, 255, 255, 0.05) ,  /*right bottom top*/
+              -15px -15px 20px  rgba(0, 0, 0, 0.3);
+  
+}
+
+body.dark-mode #list-heading{
+    color: #CACCCD;
+}
+body.dark-mode .label__lg{
+    color: #CACCCD;
+}
+
+
+body.dark-mode .fields input{
+    
+  color: #CACCCD;
+  /* box-shadow: inset 8px 8px 8px #333,
+               inset -8px -8px 8px #222; */
+box-shadow:    inset 15px 15px 20px rgba(255, 255, 255,0.02) ,  /*right bottom top*/
+               inset -15px -15px 20px  rgba(0, 0, 0, 0.3);
+
+}
+
+body.dark-mode .colot {
+  
+    background-color: #383a46;
+    color:white;
+  
+}
+
+body.dark-mode button{
+    
+    border-radius: 50px;
+    background: #ff105e;
+    color: #CACCCD;
+    box-shadow:    inset 15px 15px 20px rgba(255, 255, 255,0.02) ,  /*right bottom top*/
+                    inset -15px -15px 20px  rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+body.dark-mode .c-cb > label   {
+    
+  color: #CACCCD;
+  border-radius: 25px;
+  box-shadow:    inset 15px 15px 20px rgba(255, 255, 255,0.02) ,  /*right bottom top*/
+               inset -15px -15px 20px  rgba(0, 0, 0, 0.3);
+  transition: 0.5;
+  /* box-shadow: inset 8px 8px 8px #333, inset -8px -8px 8px #555; */
+
+}
+
+body.dark-mode  .todo-label{
+  
+    color: #CACCCD;
+    box-shadow:    inset 15px 15px 20px rgba(255, 255, 255,0.02) ,  /*right bottom top*/
+               inset -15px -15px 20px  rgba(0, 0, 0, 0.3);
+}
+
+
+body.dark-mode  .form-group .todo-text {
+
+  color: #CACCCD;
+  border-radius: 25px;
+  box-shadow:    inset 15px 15px 20px rgba(255, 255, 255,0.02) ,  /*right bottom top*/
+  inset -15px -15px 20px  rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SWITCH CSSSS */
+
+.position {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #24cfaa ;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #24cfaa ;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+/* New CSS */
+
